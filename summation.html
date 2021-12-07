@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Summation</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+<input class="input-box" id="number" type="number" placeholder="Enter a Number">
+<button class="input-box" onclick="check()">Summation</button>
+<h1 id="display"></h1>
+
+
+
+<script>
+
+	function check(){
+		var a = document.getElementById('number').value;
+
+		var add = null;
+
+
+	for( i = 1 ; a >= i ; i++ ){
+		
+		add = add + i;
+
+		document.getElementById('display').innerHTML = add
+
+
+	}
+	}
+	
+
+
+	
+
+</script>
+
+
+
+</body>
+</html>
